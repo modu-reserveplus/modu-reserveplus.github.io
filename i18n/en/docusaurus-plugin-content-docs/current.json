@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.Admission to operation of new armament": {
+    "message": "Admission to operation of new armament",
+    "description": "The label for category Admission to operation of new armament in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Admission to operation of new armament.link.generated-index.title": {
+    "message": "Admission to operation of new armament",
+    "description": "The generated-index page title for category Admission to operation of new armament in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Допуск до експлуатації нових зразків ОВТ": {
+    "message": "Admission to operation of new armament",
+    "description": "The label for category Допуск до експлуатації нових зразків ОВТ in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Допуск до експлуатації нових зразків ОВТ.link.generated-index.title": {
+    "message": "Admission to operation of new armament",
+    "description": "The generated-index page title for category Допуск до експлуатації нових зразків ОВТ in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Питання інтелектуальної власності": {
+    "message": "The issue of intellectual property",
+    "description": "The label for category Допуск до експлуатації нових зразків ОВТ in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Питання інтелектуальної власності.link.generated-index.title": {
+    "message": "The issue of intellectual property",
+    "description": "The generated-index page title for category Допуск до експлуатації нових зразків ОВТ in sidebar mySidebar"
+  }
+}
