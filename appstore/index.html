@@ -1,2 +1,14 @@
-<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>OS Redirect</title><script type="module">
-</script></head> <body onload="detectOSAndRedirect()"> <h1>Redirecting based on OS...</h1> </body></html>
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>OS Redirect</title><script type="text/javascript">
+ function detectOSAndRedirect() {
+ //var operaAgent: string = window['opera'] as string;
+ var userAgent = navigator.userAgent || navigator.vendor;
+ var msStream = false; //(window as { [key: string]: any })['MSStream'] as boolean;
+ if (/android/i.test(userAgent)) {
+ window.location.href = "https://play.google.com/store/apps/details?id=ua.gov.reserveplus";
+ } else if (/iPad|iPhone|iPod/.test(userAgent) && !msStream) {
+ window.location.href = "https://apps.apple.com/ua/app/резерв/id6499418319?l=uk";
+ } else {
+ alert("Operating system not recognized or not supported.");
+ }
+ }
+ </script></head> <body onload="detectOSAndRedirect()"> <h1>Redirecting based on OS...</h1> </body></html>
