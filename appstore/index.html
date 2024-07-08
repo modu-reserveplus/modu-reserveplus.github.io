@@ -3,12 +3,11 @@
  //var operaAgent: string = window['opera'] as string;
  var userAgent = navigator.userAgent || navigator.vendor;
  var msStream = false; //(window as { [key: string]: any })['MSStream'] as boolean;
- if (/android/i.test(userAgent)) {
- window.location.href = "https://play.google.com/store/apps/details?id=ua.gov.reserveplus";
- } else if (/iPad|iPhone|iPod/.test(userAgent) && !msStream) {
+ if (/iPad|iPhone|iPod/.test(userAgent) && !msStream) {
  window.location.href = "https://apps.apple.com/ua/app/резерв/id6499418319?l=uk";
- } else {
- alert("Operating system not recognized or not supported.");
  }
+ else {
+ window.location.href = "https://play.google.com/store/apps/details?id=ua.gov.reserveplus";
+ } 
  }
  </script></head> <body onload="detectOSAndRedirect()"> <h1>Redirecting based on OS...</h1> </body></html>
